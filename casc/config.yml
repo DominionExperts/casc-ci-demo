@@ -36,7 +36,7 @@ jobs:
             scm { 
               git { 
                 remote { url('git://github.com/DominionExperts/casc-ci-demo.git') } 
-                branches('5-new-job') 
+                branches('master') 
                 scriptPath('jenkins-job-builder/Jenkinsfile')
               }
             }
