@@ -6,7 +6,7 @@
       - git:
           url: git://github.com/DominionExperts/casc-ci-demo.git
           branches:
-            - origin/4-casc-loop
+            - origin/master
     triggers:
       - pollscm:
           cron: "* * * * *"
